@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2023 Tougo Kataita 22c1031pf@s.chibakoudai.jp
+# SPDX-FileCopyrightText: 2023 Tougo Kataita 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
 import sys
 
 ans = 0
