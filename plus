@@ -2,9 +2,32 @@
 import sys
 
 ans = 0
+a = 0
+b = 0
+count = 0
 for line in sys.stdin:
     try:
         ans += int(line)
+        print("{} + {} = {}".format(a , int(line) ,  ans) )
+        a = ans
     except:
         ans += float(line)
-print(ans)
+        print("{} + {} = {}".format(a , int(line) ,  ans) )
+        a = ans
+
+print("")
+print("1 ~ {}の合計 : {}".format(int(line) , ans))
+        
+b = ans / int(line)
+print("平均値 : {}".format( float(b)))
+
+if ans % 2 == 0:
+    print("偶数")
+else:
+    print("奇数")
+
+for line2 in range(1,ans+1):
+    if ans % int(line2) == 0:
+        count += 1
+if (count == 2) and (ans != 1):
+    print("素数")
