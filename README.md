@@ -10,7 +10,9 @@
 
 ## インストール
 * 下記のコマンドでrobosys2023のディレクトリを取得できます。
+
 git clone git@github.com:tougokataita/robosys2023.git
+
 ## 実行法
 * 取得したディレクトリ(robosys2023)に移動し plus を実行してください。
 このプログラムは1~任意の数字までを足し合わせるプログラムです。
