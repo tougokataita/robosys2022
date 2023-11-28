@@ -1,4 +1,6 @@
-#!/bin/bash 
+#!/bin/bash
+# SPDX-FileCopyrightText: 2023 Tougo Kataita 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
 	echo ${1}行目が間違えてる
