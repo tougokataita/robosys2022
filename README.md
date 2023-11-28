@@ -20,6 +20,17 @@ git clone git@github.com:tougokataita/robosys2023.git
 seq n | ./plus
 
   nの部分を任意の数字に変更して実行してください。
+
+* 実行例
+seq 2 | ./plus
+
+0 + 1 = 1
+1 + 2 = 3
+
+1 ~ 2の合計 : 3
+平均値 : 1.5
+奇数
+素数
 ## 必要なソフトウェア
 
 * Python
