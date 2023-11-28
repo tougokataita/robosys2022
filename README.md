@@ -19,7 +19,7 @@ git clone git@github.com:tougokataita/robosys2023.git
 
 seq n | ./plus
 
-nの部分を任意の数字に変更して実行してください。
+  nの部分を任意の数字に変更して実行してください。
 ## 必要なソフトウェア
 
 * Python
