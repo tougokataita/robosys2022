@@ -9,17 +9,42 @@
 * 足した数字が素数か判別し、素数なら素数と出力する。
 
 ## インストール
-* 下記のコマンドでrobosys2023のディレクトリを取得できます。
+* 下記のコマンドでrobosys2023 リポジトリのコピーがローカルのディレクトリに作成されます。
 
-git clone git@github.com:tougokataita/robosys2023.git
+'''git clone git@github.com:tougokataita/robosys2023.git'''
 
-## 実行法
-* 取得したディレクトリ(robosys2023)に移動し plus を実行してください。
+## 実行方法
+* ディレクトリ(robosys2023)に移動し plus を実行してください。
 このプログラムは1~任意の数字までを足し合わせるプログラムです。
 
-seq n | ./plus
+'''seq n | ./plus''' 
 
   nの部分を任意の数字に変更して実行してください。
+
+* 実行例 1
+'''seq 2 | ./plus
+
+0 + 1 = 1
+1 + 2 = 3
+
+1 ~ 2の合計 : 3
+平均値 : 1.5
+奇数
+素数'''
+
+* 実行例2
+'''seq 7 | ./plus
+0 + 1 = 1
+1 + 2 = 3
+3 + 3 = 6
+6 + 4 = 10
+10 + 5 = 15
+15 + 6 = 21
+21 + 7 = 28
+
+1 ~ 7の合計 : 28
+平均値 : 4.0
+偶数'''
 
 ## 必要なソフトウェア
 
@@ -34,5 +59,5 @@ seq n | ./plus
 * このパッケージは，3条項ライセンスのもとryuichiueda/emcl由来のコード（© 2022 Ryuichi Ueda）を利用しています．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md)
-* © 2023 Ryuichi Ueda
+* © 2023 Tougo Kataita
 
